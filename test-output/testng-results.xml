@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-16T00:59:51Z" name="Default suite" finished-at="2022-01-16T00:59:54Z" duration-ms="2682">
+    <groups>
+    </groups>
+    <test started-at="2022-01-16T00:59:51Z" name="Default test" finished-at="2022-01-16T00:59:54Z" duration-ms="2682">
+      <class name="com.training.test.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.training.test.LoginTest@78aa1f72]" started-at="2022-01-16T00:59:51Z" name="setup" finished-at="2022-01-16T00:59:54Z" duration-ms="2610" status="FAIL">
+          <exception class="io.github.bonigarcia.wdm.WebDriverManagerException">
+            <message>
+              <![CDATA[java.util.NoSuchElementException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.github.bonigarcia.wdm.WebDriverManagerException: java.util.NoSuchElementException
+at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:776)
+at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:550)
+at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:773)
+at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:550)
+at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:766)
+at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:550)
+at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:260)
+at com.training.base.BaseTest.getDriver(BaseTest.java:33)
+at com.training.base.BaseTest.lanuchBrowser(BaseTest.java:47)
+at com.training.test.LoginTest.setup(LoginTest.java:15)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.util.NoSuchElementException
+at java.base/java.util.ArrayList$Itr.next(ArrayList.java:1000)
+at io.github.bonigarcia.wdm.EdgeDriverManager.checkLatest(EdgeDriverManager.java:179)
+at io.github.bonigarcia.wdm.WebDriverManager.filterCandidateUrls(WebDriverManager.java:799)
+at io.github.bonigarcia.wdm.WebDriverManager.downloadAndExport(WebDriverManager.java:568)
+at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:547)
+... 36 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.github.bonigarcia.wdm.WebDriverManagerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test()[pri:0, instance:com.training.test.LoginTest@78aa1f72]" started-at="2022-01-16T00:59:54Z" name="test" finished-at="2022-01-16T00:59:54Z" duration-ms="0" status="SKIP">
+          <exception class="io.github.bonigarcia.wdm.WebDriverManagerException">
+            <message>
+              <![CDATA[java.util.NoSuchElementException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.github.bonigarcia.wdm.WebDriverManagerException: java.util.NoSuchElementException
+at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:776)
+at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:550)
+at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:773)
+at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:550)
+at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:766)
+at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:550)
+at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:260)
+at com.training.base.BaseTest.getDriver(BaseTest.java:33)
+at com.training.base.BaseTest.lanuchBrowser(BaseTest.java:47)
+at com.training.test.LoginTest.setup(LoginTest.java:15)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.util.NoSuchElementException
+at java.base/java.util.ArrayList$Itr.next(ArrayList.java:1000)
+at io.github.bonigarcia.wdm.EdgeDriverManager.checkLatest(EdgeDriverManager.java:179)
+at io.github.bonigarcia.wdm.WebDriverManager.filterCandidateUrls(WebDriverManager.java:799)
+at io.github.bonigarcia.wdm.WebDriverManager.downloadAndExport(WebDriverManager.java:568)
+at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:547)
+... 36 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.github.bonigarcia.wdm.WebDriverManagerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.training.test.LoginTest@78aa1f72]" started-at="2022-01-16T00:59:54Z" name="setUp" finished-at="2022-01-16T00:59:54Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- com.training.test.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
